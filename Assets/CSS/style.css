@@ -9,6 +9,12 @@ body {
 	background-color: #ffffff;
 	background-image: url("../images/background.png");
 	height: 100%;
+	color: #777777;
+}
+
+html, 
+body {
+	height: 100%;
 }
 
 /*     Basic Styles     */
@@ -83,7 +89,7 @@ nav li a {
 
 nav li a:hover {
 	text-decoration: none;
-	color: #666666;
+	color: #4aaaa5;
 }
 
 /*    Main Content Styles    */
@@ -91,6 +97,7 @@ nav li a:hover {
 	border: 1px solid #dddddd;
 	width: 960px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .main-content {
@@ -100,6 +107,7 @@ nav li a:hover {
 	padding: 20px;
 	margin-top: 20px;
 	border: 1px solid #cccccc;
+	position: relative;
 }
 
 .side-bar {
@@ -109,8 +117,13 @@ nav li a:hover {
 	padding: 20px;
 	margin-top: 20px;
 	border: 1px solid #cccccc;
+	position: relative;
 }
 
+#bio-image {
+	padding: 20px;
+	float: left;
+}
 
 /*     Footer     */
 footer {
@@ -118,10 +131,11 @@ footer {
 	text-align: center;
 	color: #cccccc;
 	font-size: .8em;
+	padding-top: 30px;
 }
 
 .push,
-footer {
+.footer {
 	height: 100px;
 }
 
